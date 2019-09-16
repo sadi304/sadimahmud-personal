@@ -1,33 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app-sidemenu {
+  height: 100vh;
+  background: rgb(27, 33, 44);
+  flex: 250px 0 0;
+}
+.app-body {
+  background: rgb(33, 40, 53);
+  flex: 1;
+}
+.app-content {
+  padding: 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidemenu-parent {
+  padding: 0 10px;
+}
+
+.sidemenu-parent li {
+  color: rgb(106, 185, 135);
+}
+
+.sidemenu-parent li ion-icon {
+  vertical-align: middle;
+}
+
+.sidemenu {
+  padding: 10px 0px;
+  list-style: none;
+}
+
+.sidemenu li {
+  padding: 5px 30px;
+  margin-bottom: 5px;
+}
+
+.sidemenu li:hover {
+  background: rgb(37, 45, 69);
+}
+
+.sidemenu li ion-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.sidemenu li:first-child ion-icon {
+  fill: rgb(230, 74, 25);
+}
+
+.sidemenu li:nth-child(2) ion-icon {
+  fill: rgb(66, 165, 245);
+}
+.sidemenu li:nth-child(3) ion-icon {
+  fill: rgb(150, 174, 96);
+}
+.sidemenu li:last-child ion-icon {
+  fill: rgb(106, 158, 180);
+}
+
+.tab-bar {
+  width: 100%;
+  background: rgb(27, 33, 44);
+}
+
+.tab-bar .tab {
+  padding: 8px 10px;
+  background: rgb(33, 40, 53);
+  display: inline-block;
+  color: #eee;
+
 }

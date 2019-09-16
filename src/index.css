@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+pre {
+  counter-reset: line;
+  color: rgb(89, 242, 247);
+}
+
+pre code {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+pre code:before {
+  position: absolute;
+  counter-increment: line;
+  content: counter(line);
+  left: 0;
+  top: 0;
+  color: #999;
 }
