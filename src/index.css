@@ -8,8 +8,12 @@ body {
   font-size: 14px;
 }
 
+.white {
+  color: #ddd;
+}
+
 a {
-  color: #eee;
+  color: #ddd;
   text-decoration: none;
 }
 
@@ -33,4 +37,12 @@ pre code:before {
   left: 0;
   top: 0;
   color: #999;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }

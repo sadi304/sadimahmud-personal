@@ -23,6 +23,13 @@
   color: rgb(106, 185, 135);
 }
 
+.headline {
+  color: #ccc;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0;
+}
+
 .sidemenu-parent li ion-icon {
   vertical-align: middle;
 }
@@ -71,4 +78,15 @@
   display: inline-block;
   color: #eee;
 
+}
+
+img.rounded {
+  border-radius: 50%;
+}
+img.logo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: block;
+  opacity: .8;
 }
