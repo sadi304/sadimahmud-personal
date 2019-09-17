@@ -25,3 +25,18 @@ img.logo {
   display: block;
   opacity: .8;
 }
+
+@media only screen and (max-width: 750px) {
+  .app {
+    display: block;
+    min-height: 100vh;
+    background: rgb(33, 40, 53);
+  }
+  .app-sidemenu {
+    height: auto;
+    background: rgb(27, 33, 44);
+  }
+  .app-body {
+    background: rgb(33, 40, 53);
+  }
+}
