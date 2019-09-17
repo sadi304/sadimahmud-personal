@@ -15,19 +15,6 @@
   padding: 0 10px;
 }
 
-.tab-bar {
-  width: 100%;
-  background: rgb(27, 33, 44);
-}
-
-.tab-bar .tab {
-  padding: 8px 10px;
-  background: rgb(33, 40, 53);
-  display: inline-block;
-  color: #eee;
-
-}
-
 img.rounded {
   border-radius: 50%;
 }

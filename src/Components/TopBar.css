@@ -1,0 +1,22 @@
+.tab-bar {
+  width: 100%;
+  background: rgb(27, 33, 44);
+}
+
+.tab-bar .tab {
+  padding: 8px 10px;
+  background: rgb(33, 40, 53);
+  display: inline-block;
+  color: #999;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.tab-bar .tab.active {
+  color: #ccc;
+}
+
+.tab--close {
+  margin-left: 5px;
+  vertical-align: middle;
+}
