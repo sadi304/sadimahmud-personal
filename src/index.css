@@ -19,7 +19,7 @@ a {
 
 pre {
   counter-reset: line;
-  color: rgb(89, 242, 247);
+  color: rgb(112, 244, 156);
 }
 
 pre code {
@@ -37,6 +37,10 @@ pre code:before {
   left: 0;
   top: 0;
   color: #999;
+}
+
+pre a {
+  color: rgb(229, 102, 116);
 }
 
 img {

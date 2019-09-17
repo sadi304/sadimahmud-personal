@@ -1,0 +1,52 @@
+.sidemenu-parent {
+  padding: 0 10px;
+}
+
+.sidemenu-parent li {
+  color: rgb(106, 185, 135);
+}
+
+.headline {
+  color: #ccc;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.sidemenu-parent li ion-icon {
+  vertical-align: middle;
+}
+
+.sidemenu {
+  padding: 10px 0px;
+  list-style: none;
+}
+
+.sidemenu li a {
+  display: block;
+  padding: 5px 30px;
+  margin-bottom: 5px;
+}
+
+.sidemenu li a:hover, .sidemenu li a.active {
+  background: rgb(37, 45, 69);
+}
+
+.sidemenu li ion-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.sidemenu li:first-child ion-icon {
+  fill: rgb(230, 74, 25);
+}
+
+.sidemenu li:nth-child(2) ion-icon {
+  fill: rgb(66, 165, 245);
+}
+.sidemenu li:nth-child(3) ion-icon {
+  fill: rgb(150, 174, 96);
+}
+.sidemenu li:last-child ion-icon {
+  fill: rgb(106, 158, 180);
+}
