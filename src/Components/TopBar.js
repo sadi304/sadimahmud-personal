@@ -42,11 +42,12 @@ class TopBar extends Component {
     const { tabs } = this.state;
     if(tabs.length <= 1) return;
     
-    this.setState({ tabs: tabs.filter(tab => tab.pathname !== pathnameToRemove) });
-
-    if(pathnameToRemove === pathname) {
-      history.push(tabs[0].pathname);
-    }
+    const restTabs = tabs.filter(tab => tab.pathname !== pathnameToRemove);
+    this.setState({ tabs: restTabs }, () => {
+      if(pathnameToRemove === pathname) {
+        history.push(restTabs[0].pathname);
+      }
+     });
   }
 
   render() {
