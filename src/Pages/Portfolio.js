@@ -3,13 +3,7 @@ import { getStringByLineFromJSON } from '../Helpers/JsonHelper';
 
 const portfolioItems = [
   {
-    title: 'PTE Study Centre Tutorial',
-    description: 'Bla',
-    technologies: [
-      'Laravel',
-      'JQuery',
-      'Bootstrap'
-    ]
+    'TO DO': 'Will update later.'
   }
 ]
 

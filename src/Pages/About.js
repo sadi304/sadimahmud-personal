@@ -3,7 +3,7 @@ import { getStringByLineFromJSON } from '../Helpers/JsonHelper';
 
 const aboutMe = { 
   name: 'Sadi Mahmud', 
-  home: 'Bangladesh',
+  home: 'Mirpur, Dhaka, Bangladesh',
   education: [
     'Notre Dame College',
     'Islamic University of Technology',
@@ -14,6 +14,11 @@ const aboutMe = {
     'Travelling',
     'Gaming',
     'Binge-watching tv shows'
+  ],
+  leisure: [
+    'Netflix',
+    'Hackernoon/medium/toptal Articles',
+    'goal.com/allfootball-app'
   ]
 }
 
