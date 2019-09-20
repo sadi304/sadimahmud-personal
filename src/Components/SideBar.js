@@ -41,6 +41,12 @@ const SideBar = () => (
               contact.json
             </NavLink>
           </li>
+          <li>
+            <NavLink activeClassName="active" to="/resume">
+              <ion-icon name="document"></ion-icon>
+              resume.pdf
+            </NavLink>
+          </li>
         </ul>
       </li>
     </ul>

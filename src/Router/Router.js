@@ -5,6 +5,7 @@ import Skills from '../Pages/Skills';
 import Portfolio from '../Pages/Portfolio';
 import SideBar from '../Components/SideBar';
 import Contact from '../Pages/Contact';
+import Resume from '../Pages/Resume';
 import TopBar from '../Components/TopBar';
 const AppRouter = () => (
   <Router>
@@ -19,6 +20,7 @@ const AppRouter = () => (
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/resume" component={Resume} />
         </div>
       </div>
     </div>

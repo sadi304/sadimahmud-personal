@@ -14,6 +14,12 @@
 .app-content {
   padding: 0 10px;
 }
+.resume--iframe {
+  width: 700px;
+  height: 900px;
+  border: 0;
+  margin-top: 20px;
+}
 
 img.rounded {
   border-radius: 50%;
@@ -24,6 +30,12 @@ img.logo {
   margin: 0 auto;
   display: block;
   opacity: .8;
+}
+
+@media only screen and (max-width: 900px) {
+  .resume--iframe {
+    width: 550px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -38,5 +50,8 @@ img.logo {
   }
   .app-body {
     background: rgb(33, 40, 53);
+  }
+  .resume--iframe {
+    width: 400px;
   }
 }

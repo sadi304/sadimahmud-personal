@@ -13,7 +13,7 @@ const aboutMe = {
   hobby: [
     'Travelling',
     'Gaming',
-    'Binge-watching tv shows'
+    'Wikipedia'
   ],
   leisure: [
     'Netflix',

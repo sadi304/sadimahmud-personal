@@ -7,7 +7,8 @@ const pathMapper = {
   '/': 'about.json',
   '/skills': 'skills.json',
   '/portfolio': 'portfolio.json',
-  '/contact': 'contact.json'
+  '/contact': 'contact.json',
+  '/resume': 'resume.pdf'
 }
 
 class TopBar extends Component {
