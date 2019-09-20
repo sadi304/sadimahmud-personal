@@ -14,8 +14,8 @@ const pathMapper = {
 class TopBar extends Component {
   state = {
     tabs: [{
-      pathname: this.props.location.pathname,
-      name: pathMapper[this.props.location.pathname]
+      pathname: pathMapper[this.props.location.pathname] ? this.props.location.pathname : '/',
+      name: pathMapper[this.props.location.pathname] ? pathMapper[this.props.location.pathname] : pathMapper['/']
     }]
   }
 

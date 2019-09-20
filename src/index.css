@@ -36,6 +36,14 @@ pre code {
   font-size: 16px;
 }
 
+pre code > span.property-name {
+  color: rgb(229, 102, 116);
+}
+
+pre code > span.colon {
+  color: rgb(168, 181, 208);
+}
+
 pre code:before {
   position: absolute;
   counter-increment: line;
@@ -46,7 +54,11 @@ pre code:before {
 }
 
 pre a {
-  color: rgb(229, 102, 116);
+  color: rgb(112, 244, 156);
+}
+
+pre a:hover {
+  color: rgb(56, 115, 241);
 }
 
 img {

@@ -42,10 +42,10 @@ const SideBar = () => (
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/resume">
-              <ion-icon name="document"></ion-icon>
+            <a href="https://drive.google.com/file/d/1dnAEJegyeAXCwIybZd4k9_WkBD9DSkN8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="document"></ion-icon>
               resume.pdf
-            </NavLink>
+            </a>
           </li>
         </ul>
       </li>
