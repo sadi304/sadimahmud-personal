@@ -3,7 +3,7 @@ import { getStringByLineFromJSON } from '../Helpers/JsonHelper';
 
 const portfolioItems = [
   {
-    'TO DO': 'Will update later.'
+    '...': 'Will update later.'
   }
 ]
 
